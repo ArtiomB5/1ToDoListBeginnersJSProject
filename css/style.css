@@ -1,0 +1,23 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  outline: 1px solid black;
+  text-align: center;
+}
+.container .header {
+  padding: 20px;
+}
+.container #list div {
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.container #list div p {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.container #list div button {
+  display: block;
+}
